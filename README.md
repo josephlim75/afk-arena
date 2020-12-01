@@ -1,5 +1,10 @@
 # afk-arena
 
+## Download the bash script
+https://raw.githubusercontent.com/josephlim75/afk-arena/main/linux-scripts/afk-redeem.sh
+
+IMPORTANT: For Windows users, you need to run this in a linux emulator like cygwin, mingw or git bash command prompt.
+
 ## First time execution
 ```
 $ ./afk-redeem.sh
