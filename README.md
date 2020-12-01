@@ -6,6 +6,10 @@ https://raw.githubusercontent.com/josephlim75/afk-arena/main/linux-scripts/afk-r
 `IMPORTANT`: For Windows users, you need to run this in a linux emulator like cygwin, mingw or git bash command prompt.
 
 ## First time execution
+It will ask for your AFK UID.  AFK UID can be located at
+
+[https://lilithimage.lilithcdn.com/lilith-growing/redeemcode/uid_02.jpg]
+
 ```
 $ ./afk-redeem.sh
 First time AFK UID Registration: 7xxxxx
