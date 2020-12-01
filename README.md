@@ -4,7 +4,8 @@
 https://raw.githubusercontent.com/josephlim75/afk-arena/main/linux-scripts/afk-redeem.sh
 
 `IMPORTANT`: For Windows users, you need to run this in a linux emulator like cygwin, mingw or git bash command prompt.
-<img src="images/windows_exec.png" alt="windows_exec" width="300"/>
+
+<img src="images/windows_exec.png" alt="windows_exec" width="500"/>
 
 ## First time execution
 It will ask for your AFK UID.  AFK UID can be found at
