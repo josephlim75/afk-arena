@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/josephlim75/afk-arena/main/linux-scripts/afk-r
 ## First time execution
 It will ask for your AFK UID.  AFK UID can be located at
 
-<img src="https://lilithimage.lilithcdn.com/lilith-growing/redeemcode/uid_02.jpg" alt="afk_uid" width="200"/>
+<img src="https://lilithimage.lilithcdn.com/lilith-growing/redeemcode/uid_02.jpg" alt="afk_uid" width="300"/>
 
 ```
 $ ./afk-redeem.sh
