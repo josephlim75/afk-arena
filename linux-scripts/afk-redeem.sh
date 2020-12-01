@@ -23,7 +23,7 @@ read -p "Enter your redemption code: " AFK_REDEMPTION_CODE
 rm -f ./afk_auth_cookie
 
 # Verify code
-curl --header "Content-Type: application/json;charset=UTF-8" \
+curl -s --header "Content-Type: application/json;charset=UTF-8" \
   -c ${PWD}/afk_auth_cookie \
   --request POST \
   --data "{\"uid\": $AFK_UID, \"game\": \"afk\", \"code\": \"$AFK_VERIFICATION_CODE\"}" \
@@ -33,7 +33,7 @@ echo ""
 sleep 2
 
 # Redeem code
-curl --header "Content-Type: application/json;charset=UTF-8" \
+curl -s --header "Content-Type: application/json;charset=UTF-8" \
   -b ${PWD}/afk_auth_cookie \
   --request POST \
   --data "{\"type\": \"cdkey_web\", \"game\": \"afk\", \"uid\": $AFK_UID, \"cdkey\": \"$AFK_REDEMPTION_CODE\"}" \
