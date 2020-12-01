@@ -2,6 +2,7 @@
 
 ## First time execution
 ```
+$ ./afk-redeem.sh
 First time AFK UID Registration: 7xxxxx
 Registration completed.
 {"ret":0,"info":"ok"}
@@ -13,6 +14,7 @@ Enter your redemption code: 76shwcv6e4
 
 ## Subsequent execution
 ```
+$ ./afk-redeem.sh
 {"ret":0,"info":"ok"}
 Enter your verification code: 586843
 Enter your redemption code: 76shwcv6e4
