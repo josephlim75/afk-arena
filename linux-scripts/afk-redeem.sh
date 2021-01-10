@@ -33,8 +33,11 @@ echo ""
 sleep 2
 
 # Redeem code
-curl -Ls --header "Content-Type: application/json;charset=UTF-8" \
-  -b ${PWD}/afk_auth_cookie \
-  --request POST \
-  --data "{\"type\": \"cdkey_web\", \"game\": \"afk\", \"uid\": $AFK_UID, \"cdkey\": \"$AFK_REDEMPTION_CODE\"}" \
-  https://cdkey.lilith.com/api/cd-key/consume
+for code in ${AFK_REDEMPTION_CODE//,/ }; do
+  curl -Ls --header "Content-Type: application/json;charset=UTF-8" \
+    -b ${PWD}/afk_auth_cookie \
+    --request POST \
+    --data "{\"type\": \"cdkey_web\", \"game\": \"afk\", \"uid\": $AFK_UID, \"cdkey\": \"$code\"}" \
+    https://cdkey.lilith.com/api/cd-key/consume
+  echo ""
+done
